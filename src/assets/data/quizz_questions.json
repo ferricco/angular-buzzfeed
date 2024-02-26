@@ -1,0 +1,55 @@
+{
+    "title":"Escolha as comidas e veja qual série você assistirá.",
+    "questions":[
+      {
+        "id":1,
+        "question": "Qual delivery você escolheria ?",
+        "options":[
+          {"id": 1, "name":"Hamburguer", "alias":"A"},
+          {"id": 2, "name":"Pizza", "alias":"B"},
+          {"id": 3, "name":"Comida japonesa", "alias":"A"},
+          {"id": 4, "name":"Frango Frito", "alias":"B"},
+          {"id": 5, "name":"Não pediria delivery", "alias":"A"}
+        ]
+      },
+      {
+        "id":2,
+        "question": "Qual comida de micro-ondas você faria ?",
+        "options":[
+          {"id": 1, "name":"Burrito", "alias":"A"},
+          {"id": 2, "name":"Hot-pocket", "alias":"B"},
+          {"id": 3, "name":"Pipoca com kethup", "alias":"B"}
+        ]
+      },
+      {
+        "id":3,
+        "question": "Qual seria o tira gosto ?",
+        "options":[
+          {"id": 1, "name":"Azeitonas", "alias":"B"},
+          {"id": 2, "name":"Tábua de frios", "alias":"A"},
+          {"id": 3, "name":"Pastas com torradas", "alias":"A"},
+          {"id": 4, "name":"Amendoim", "alias":"B"}
+        ]
+      },
+      {
+        "id":4,
+        "question": "Qual bebida você tomaria ?",
+        "options":[
+          {"id": 1, "name":"Vinho", "alias":"A"},
+          {"id": 2, "name":"Refrigerante", "alias":"B"}
+        ]
+      },
+      {
+        "id":5,
+        "question": "E qual doce comeria ?",
+        "options":[
+          {"id": 1, "name":"Chocolate meio-amargo", "alias":"A"},
+          {"id": 2, "name":"Brigadeiro de colher", "alias":"B"}
+        ]
+      }
+    ],
+    "results":{
+      "A": "Você provavelmente assistiria Dr. House!",
+      "B": "Você provavelmente assistiria Friends!"
+    }
+  }
